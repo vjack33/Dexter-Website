@@ -5,6 +5,10 @@
   padding: 0;
 }
 
+.heroSection {
+  height: 100%;
+}
+
 .heroNameDesc {
   position: absolute;
   top: 30%;
@@ -20,6 +24,15 @@
 .heroDesc {
   color: #FCFCFC;
   font-size: 1.5em;
+}
+
+.heroBackground {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  width: 100%;
+  object-fit: cover;
 }
 
 .sectionHeader {
@@ -38,4 +51,28 @@
   width: 60%;
   text-align: center;
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono", "Droid Sans Mono", monospace, monospace;
+}
+
+.rightText {
+  text-align: end;
+}
+
+.skillCenterSide {
+  width: 10%;
+}
+
+.skillLeftSide, .skillRightSide {
+  width: 45%;
+}
+
+.skillLeftSide img {
+  border-radius: 50%;
+  width: 5rem;
+  height: 5rem;
+}
+
+
+.lighterBg {
+  background: #1A1A26;
+  color: #FCFCFC;
 }

@@ -468,11 +468,30 @@ input:checked + .slider:before {
   color: white;
 }
 
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 60%;
+  border-radius: 10px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-container {
+  padding: 2px 16px;
+}
+
 .portfolioFullPage {
   background: #13121C;
   color: #FCFCFC;
   margin: 0;
   padding: 0;
+}
+
+.heroSection {
+  height: 100%;
 }
 
 .heroNameDesc {
@@ -492,6 +511,15 @@ input:checked + .slider:before {
   font-size: 1.5em;
 }
 
+.heroBackground {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  width: 100%;
+  object-fit: cover;
+}
+
 .sectionHeader {
   font-size: 3em;
   text-align: center;
@@ -508,6 +536,29 @@ input:checked + .slider:before {
   width: 60%;
   text-align: center;
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono", "Droid Sans Mono", monospace, monospace;
+}
+
+.rightText {
+  text-align: end;
+}
+
+.skillCenterSide {
+  width: 10%;
+}
+
+.skillLeftSide, .skillRightSide {
+  width: 45%;
+}
+
+.skillLeftSide img {
+  border-radius: 50%;
+  width: 5rem;
+  height: 5rem;
+}
+
+.lighterBg {
+  background: #1A1A26;
+  color: #FCFCFC;
 }
 
 /*# sourceMappingURL=custom.css.map */

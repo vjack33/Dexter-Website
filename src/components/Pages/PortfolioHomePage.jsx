@@ -10,8 +10,8 @@ export default function PortfolioHomePage() {
                     <a>About</a>
                     <a class="active">Home</a>
                 </div>
-                <div>
-                    <img className={"heroBackground"} width={"100%"} src={"/HeroBackground.jpg"}/>
+                <div className={"heroSection fill"}>
+                    <img className={"heroBackground"} src={"/HeroBackground.jpg"}/>
                     <div className={"heroNameDesc"}>
                         <p className={"heroName"}>I am Vaibhav Chopade</p>
                         <p className={"heroDesc"}>Web Developer/ Android Developer/ Geek</p>
@@ -26,18 +26,27 @@ export default function PortfolioHomePage() {
                         revamped one of the top revenue generating B2B app for the employer with over 50 lakh+
                         downloads.
                     </p>
-                    <div>
-                        <div>
-                            <img src={"/"}/>
-                            <p>Full Name: Vaibhav Chopade</p>
-                            <p>Birthday: 15 OCT 1996</p>
-                            <p>Phone: +91 9730592846</p>
-                            <p>Email: vaibhavchopade33@gmail.com</p>
-                        </div>
-                        <div>
-                            <p>Skills</p>
-                            <div>
-                                <ProgressBar progress={30} width={"20%"}/>
+                    <div className={"card lighterBg p-20 "}>
+                        <div className={"d-flex"}>
+                            <div className={"skillLeftSide rightText"}>
+                                <img src={"/HeroBackground.jpg"}/>
+                                <p>Full Name: Vaibhav Chopade</p>
+                                <p>Birthday: 15 OCT 1996</p>
+                                <p>Phone: +91 9730592846</p>
+                                <p>Email: vaibhavchopade33@gmail.com</p>
+                            </div>
+                            <div className={"skillCenterSide"}/>
+                            <div className={"skillRightSide"}>
+                                <p>Skills</p>
+                                <p>HTML CSS</p>
+                                <ProgressBar hideProgressText={true} progress={30} width={"80%"}/>
+                                <p>HTML CSS</p>
+                                <ProgressBar hideProgressText={true} progress={30} width={"80%"}/>
+                                <p>HTML CSS</p>
+                                <ProgressBar hideProgressText={true} progress={30} width={"80%"}/>
+                                <p>HTML CSS</p>
+                                <ProgressBar hideProgressText={true} progress={30} width={"80%"}/>
+                                <p/>
                             </div>
                         </div>
                     </div>
