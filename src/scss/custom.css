@@ -471,7 +471,6 @@ input:checked + .slider:before {
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  width: 60%;
   border-radius: 10px;
 }
 
@@ -542,11 +541,15 @@ input:checked + .slider:before {
   text-align: end;
 }
 
+.skillLeftSide {
+  width: 45%;
+}
+
 .skillCenterSide {
   width: 10%;
 }
 
-.skillLeftSide, .skillRightSide {
+.skillRightSide {
   width: 45%;
 }
 
@@ -556,9 +559,67 @@ input:checked + .slider:before {
   height: 5rem;
 }
 
+.dividerContainer {
+  padding: 20px 20px 20px 0px;
+}
+
+.skillCard {
+  width: 60%;
+}
+
 .lighterBg {
   background: #1A1A26;
   color: #FCFCFC;
+}
+
+.contactSection {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerItem {
+  width: 100%;
+  margin: 0px 20px 20px 20px;
+  text-align: center;
+  justify-content: center;
+}
+
+.footerItem img {
+  width: 30px;
+}
+
+@media screen and (max-width: 700px) {
+  .dividerContainer {
+    flex-direction: column;
+    padding: 20px 0px 0px 0px;
+  }
+
+  .skillLeftSide {
+    width: 100%;
+    text-align: center;
+  }
+
+  .skillCenterSide {
+    width: 0%;
+  }
+
+  .skillRightSide {
+    width: 100%;
+  }
+
+  .contactSection {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footerItem {
+    width: 90%;
+    text-align: center;
+    justify-content: center;
+  }
 }
 
 /*# sourceMappingURL=custom.css.map */

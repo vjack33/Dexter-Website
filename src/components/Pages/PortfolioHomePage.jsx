@@ -26,10 +26,10 @@ export default function PortfolioHomePage() {
                         revamped one of the top revenue generating B2B app for the employer with over 50 lakh+
                         downloads.
                     </p>
-                    <div className={"card lighterBg p-20 "}>
-                        <div className={"d-flex"}>
+                    <div className={"card lighterBg p-20 skillCard"}>
+                        <div className={"d-flex dividerContainer"}>
                             <div className={"skillLeftSide rightText"}>
-                                <img src={"/HeroBackground.jpg"}/>
+                                <img src={"/profileImg.jpeg"}/>
                                 <p>Full Name: Vaibhav Chopade</p>
                                 <p>Birthday: 15 OCT 1996</p>
                                 <p>Phone: +91 9730592846</p>
@@ -39,13 +39,13 @@ export default function PortfolioHomePage() {
                             <div className={"skillRightSide"}>
                                 <p>Skills</p>
                                 <p>HTML CSS</p>
-                                <ProgressBar hideProgressText={true} progress={30} width={"80%"}/>
+                                <ProgressBar hideProgressText={true} progress={30}/>
                                 <p>HTML CSS</p>
-                                <ProgressBar hideProgressText={true} progress={30} width={"80%"}/>
+                                <ProgressBar hideProgressText={true} progress={30}/>
                                 <p>HTML CSS</p>
-                                <ProgressBar hideProgressText={true} progress={30} width={"80%"}/>
+                                <ProgressBar hideProgressText={true} progress={30}/>
                                 <p>HTML CSS</p>
-                                <ProgressBar hideProgressText={true} progress={30} width={"80%"}/>
+                                <ProgressBar hideProgressText={true} progress={30}/>
                                 <p/>
                             </div>
                         </div>
@@ -56,10 +56,22 @@ export default function PortfolioHomePage() {
                 </div>
                 <div>
                     <p className={"sectionHeader"}>Contact</p>
-                    <div>
-                        <div>Address</div>
-                        <div>Phone</div>
-                        <div>Email</div>
+                    <div className={"contactSection "}>
+                        <div className={"card footerItem  lighterBg pt-20"}>
+                            <img src={"/logo192.png"}/>
+                            <p>Address</p>
+                            <p>Mumbai - 400701</p>
+                        </div>
+                        <div className={"card footerItem  lighterBg pt-20 "}>
+                            <img src={"/logo192.png"}/>
+                            <p>Address</p>
+                            <p>Mumbai - 400701</p>
+                        </div>
+                        <div className={"card  footerItem  lighterBg pt-20"}>
+                            <img src={"/logo192.png"}/>
+                            <p>Address</p>
+                            <p>Mumbai - 400701</p>
+                        </div>
                     </div>
                 </div>
             </div>
