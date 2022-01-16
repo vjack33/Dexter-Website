@@ -3,6 +3,10 @@ import ProgressBar from "../Cards/ProgressBar";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMapMarkerAlt, faPhone, faMailBulk } from '@fortawesome/free-solid-svg-icons'
 
+function rand()  {
+    return 20 + (Math.random() * (80))
+}
+
 export default function PortfolioHomePage() {
     return (
         <>
@@ -42,13 +46,13 @@ export default function PortfolioHomePage() {
                             <div className={"skillRightSide"}>
                                 <p>Skills</p>
                                 <p>Android Development</p>
-                                <ProgressBar hideProgressText={true} progress={70}/>
+                                <ProgressBar hideProgressText={true} progress={rand()}/>
                                 <p>Web Development</p>
-                                <ProgressBar hideProgressText={true} progress={60}/>
+                                <ProgressBar hideProgressText={true} progress={rand()}/>
                                 <p>HTML CSS</p>
-                                <ProgressBar hideProgressText={true} progress={60}/>
+                                <ProgressBar hideProgressText={true} progress={rand()}/>
                                 <p>HTML CSS</p>
-                                <ProgressBar hideProgressText={true} progress={60}/>
+                                <ProgressBar hideProgressText={true} progress={rand()}/>
                                 <p/>
                             </div>
                         </div>
