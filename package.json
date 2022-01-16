@@ -18,7 +18,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint": "eslint --ext .js,.jsx src",
+    "lintf": "eslint --ext .js,.jsx src --fix"
   },
   "eslintConfig": {
     "extends": [
@@ -37,5 +39,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "resolutions": {
+    "mini-css-extract-plugin": "2.4.5"
   }
 }

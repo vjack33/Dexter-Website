@@ -1,13 +1,12 @@
 import {useState} from "react";
 
-
 export default function Home() {
     const [activeTab, setActiveTab] = useState(1)
     return (
         <>
             <div className="sidebar">
                 <div className="sidebar-icon">
-                    <img src={"/logo.png"} width={250} height={100} alt={"icon"}/>
+                    <img src={"/Dexter_Logo.png"} width={200} height={100} alt={"icon"}/>
                 </div>
                 <div className={(activeTab === 1) ? "active" : ""} onClick={() => setActiveTab(1)}>
                     <img className={"sidebar-item-icon"} src={"/favicon.ico"} alt={"icon"}/>
@@ -32,7 +31,7 @@ export default function Home() {
                         <input type="checkbox"/>
                         <span className="slider round"/>
                     </label>
-                    <img src={"/logo.png"} alt={"icon"} width={250} height={100}/>
+                    {/*<img src={"/Dexter_Logo.png"} alt={"icon"} width={200} height={100}/>*/}
                 </div>
             </div>
             <div className="content">
