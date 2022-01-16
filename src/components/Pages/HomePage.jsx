@@ -38,7 +38,7 @@ export default function Home() {
             <div className="content">
                 <div hidden={(activeTab !== 1)}>
                     <h1>
-                        Hello World Still work in progress...
+                        Hello World tesing release
                         <App/>
                     </h1>
                 </div>
