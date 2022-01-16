@@ -66,7 +66,7 @@ export default function PortfolioHomePage() {
                         <div className={"card footerItem  lighterBg pt-20"}>
                             <FontAwesomeIcon icon={faMapMarkerAlt}size={"2x"} />
                             <p>Address</p>
-                            <p>Mumbai - 400701, Earth C-147</p>
+                            <p>Mumbai - 400701, Earth C-137</p>
                         </div>
                         <div className={"card footerItem  lighterBg pt-20 "}>
                             <FontAwesomeIcon icon={faPhone} size={"2x"} />
