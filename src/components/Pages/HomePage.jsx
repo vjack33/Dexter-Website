@@ -37,7 +37,7 @@ export default function Home() {
             <div className="content">
                 <div hidden={(activeTab !== 1)}>
                     <h1>
-                        Hello World
+                        Hello World Still work in progress...
                     </h1>
                 </div>
                 <div hidden={(activeTab !== 2)}>
