@@ -1,4 +1,5 @@
 import {useState} from "react";
+import App from "../../App";
 
 export default function Home() {
     const [activeTab, setActiveTab] = useState(1)
@@ -38,6 +39,7 @@ export default function Home() {
                 <div hidden={(activeTab !== 1)}>
                     <h1>
                         Hello World Still work in progress...
+                        <App/>
                     </h1>
                 </div>
                 <div hidden={(activeTab !== 2)}>
