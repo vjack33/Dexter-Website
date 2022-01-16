@@ -6,11 +6,12 @@ import App from './App';
 import HomePage from "./components/Pages/HomePage";
 
 import reportWebVitals from './reportWebVitals';
+import PortfolioHomePage from "./components/Pages/PortfolioHomePage";
 
 ReactDOM.render(
   <React.StrictMode>
     {/*<App />*/}
-      <HomePage />
+      <PortfolioHomePage />
   </React.StrictMode>,
   document.getElementById('root')
 );
