@@ -37,6 +37,10 @@
   display: table;
 }
 
+.codetext {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono", "Droid Sans Mono", monospace, monospace;
+}
+
 .textSize-12 {
   font-size: 0.8em;
 }
@@ -111,6 +115,10 @@
 
 .test {
   background: #EB0000;
+}
+
+.pb-40 {
+  padding-bottom: 40px;
 }
 
 .cornerRadius {
@@ -508,13 +516,18 @@ input:checked + .slider:before {
 .heroDesc {
   color: #FCFCFC;
   font-size: 1.5em;
+  background: #20BB64;
+  padding: 5px;
+  border-radius: 3px;
+  margin-top: -20px;
+  margin-right: 20px;
 }
 
 .heroBackground {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80vh;
+  height: 70vh;
   width: 100%;
   object-fit: cover;
 }

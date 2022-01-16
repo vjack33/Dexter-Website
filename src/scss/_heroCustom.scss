@@ -24,13 +24,18 @@
 .heroDesc {
   color: #FCFCFC;
   font-size: 1.5em;
+  background: #20BB64;
+  padding: 5px;
+  border-radius: 3px;
+  margin-top: -20px;
+  margin-right: 20px;
 }
 
 .heroBackground {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80vh;
+  height: 70vh;
   width: 100%;
   object-fit: cover;
 }
