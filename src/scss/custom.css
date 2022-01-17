@@ -520,18 +520,21 @@ input:checked + .slider:before {
 
 .heroName {
   color: #FCFCFC;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-  font-size: 2em;
+  font-family: Dongle, serif;
+  font-size: 4em;
+  font-weight: bold;
 }
 
 .heroDesc {
   color: #FCFCFC;
-  font-size: 1.5em;
+  font-size: 2em;
   background: #20BB64;
-  padding: 5px;
+  padding: 0px 10px 0px 10px;
   border-radius: 3px;
-  margin-top: -20px;
+  margin-top: -80px;
   margin-right: 20px;
+  font-weight: bold;
+  font-family: Dongle, serif;
 }
 
 .heroBackground {
@@ -616,6 +619,10 @@ input:checked + .slider:before {
   .dividerContainer {
     flex-direction: column;
     padding: 20px 0px 0px 0px;
+  }
+
+  .skillCard {
+    width: 85%;
   }
 
   .skillLeftSide {

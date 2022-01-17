@@ -12,19 +12,19 @@ export default function PortfolioHomePage() {
         <>
             <div className={"portfolioFullPage"}>
                 <div className={"topnav"}>
-                    <a>Contact</a>
-                    <a>Portfolio</a>
-                    <a>About</a>
-                    <a class="active">Home</a>
+                    <a href="#Contact">Contact</a>
+                    <a href="#Portfolio">Portfolio</a>
+                    <a href="#About">About</a>
+                    <a class="active" href="#Home">Home</a>
                 </div>
-                <div className={"heroSection fill"}>
+                <div id={"Home"} className={"heroSection fill"}>
                     <img className={"heroBackground"} src={"/HeroBackground.jpg"}/>
                     <div className={"heroNameDesc"}>
                         <p className={"heroName"}>I am Vaibhav Chopade</p>
                         <p className={"heroDesc codetext"}>Web Developer/ Android Developer/ Geek</p>
                     </div>
                 </div>
-                <div className={"aboutMeSection"}>
+                <div id={"About"} className={"aboutMeSection"}>
                     <p className={"sectionHeader"}>About me</p>
                     <p className={"aboutMeText pb-40"}>
                         My name is Vaibhav Chopade. I am curiosity-driven Developer with 3 years of experience writing
@@ -58,13 +58,13 @@ export default function PortfolioHomePage() {
                         </div>
                     </div>
                 </div>
-                <div>
+                <div id={"Portfolio"}>
                     <p className={"sectionHeader"}>Portfolio</p>
                     <div className={"card lighterBg p-20 m-20"}>
-                        <h1 >Somethingis cooking...</h1>
+                        <h1 >Something is cooking...</h1>
                     </div>
                 </div>
-                <div>
+                <div id={"Contact"}>
                     <p className={"sectionHeader"}>Contact</p>
                     <div className={"contactSection "}>
                         <div className={"card footerItem  lighterBg pt-20"}>
