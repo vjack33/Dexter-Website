@@ -20,7 +20,7 @@ export default function PortfolioHomePage() {
                 <div id={"Home"} className={"heroSection fill"}>
                     <img className={"heroBackground"} src={"/HeroBackground.jpg"}/>
                     <div className={"heroNameDesc"}>
-                        <p className={"heroName"}>I am Vaibhav Chopade test</p>
+                        <p className={"heroName"}>I am Vaibhav Chopade</p>
                         <p className={"heroDesc codetext"}>Web Developer/ Android Developer/ Geek</p>
                     </div>
                 </div>
