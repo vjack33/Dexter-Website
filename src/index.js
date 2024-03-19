@@ -2,15 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import './scss/custom.css'
-import App from './App';
-import HomePage from "./components/Pages/HomePage";
+
 
 import reportWebVitals from './reportWebVitals';
 import PortfolioHomePage from "./components/Pages/PortfolioHomePage";
 
 ReactDOM.render(
   <React.StrictMode>
-    {/*<App />*/}
       <PortfolioHomePage />
   </React.StrictMode>,
   document.getElementById('root')
