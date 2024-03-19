@@ -15,10 +15,10 @@ export default function PortfolioHomePage() {
                     <a href="#Contact">Contact</a>
                     <a href="#Portfolio">Portfolio</a>
                     <a href="#About">About</a>
-                    <a class="active" href="#Home">Home</a>
+                    <a className="active" href="#Home">Home</a>
                 </div>
                 <div id={"Home"} className={"heroSection fill"}>
-                    <img className={"heroBackground"} src={"/HeroBackground.jpg"}/>
+                    <img className={"heroBackground"} src={"/HeroBackground.jpg"} alt='herobg'/>
                     <div className={"heroNameDesc"}>
                         <p className={"heroName"}>I am Vaibhav Chopade</p>
                         <p className={"heroDesc codetext"}>Web Developer/ Android Developer/ Geek</p>
@@ -36,7 +36,7 @@ export default function PortfolioHomePage() {
                     <div className={"card lighterBg p-20 skillCard"}>
                         <div className={"d-flex dividerContainer"}>
                             <div className={"skillLeftSide rightText"}>
-                                <img src={"/profileImg.jpeg"}/>
+                                <img src={"/profileImg.jpeg"} alt='profileimg'/>
                                 <p>Full Name: Vaibhav Chopade</p>
                                 <p>Birthday: 15 OCT 1996</p>
                                 <p>Phone: +91 9730592846</p>
