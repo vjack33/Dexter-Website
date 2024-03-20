@@ -14,9 +14,12 @@ jobs:
 
     steps:
     - name: Docker Login
+      env:
+        DOCKER_USER: ${{ secrets.DOCKER_USER }}
+        DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
       uses: docker/login-action@v3.1.0
       with:
-        username: $DOCKER_USER
+        username: ${{ secDOCKER_USER
         password: $DOCKER_PASSWORD
     
     - uses: actions/checkout@v4
